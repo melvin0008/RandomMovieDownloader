@@ -1,6 +1,6 @@
 # -*- mode: python -*-
 a = Analysis(['yifyyy.py'],
-             pathex=['/home/melvin/development/RandomMovieDownloader/RandomMovieDownloaderLinux'],
+             pathex=['/media/MELVIN/development/python/RandomMovieDownloader/RandomMovieDownloaderLinux'],
              hiddenimports=[],
              hookspath=None,
              runtime_hooks=None)
@@ -14,4 +14,4 @@ exe = EXE(pyz,
           debug=False,
           strip=None,
           upx=True,
-          console=False )
+          console=True )
